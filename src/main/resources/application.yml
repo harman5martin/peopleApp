@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/database-example
+    username: root
+    password: root
+  flyway:
+    locations: classpath:/db/migration 
+
